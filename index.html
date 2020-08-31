@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Salvador</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="superior">        
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars" ></i>
+        </label>
+        <label class="logo">El Salvador</label>
+        <ul>
+            <li><a class="active" href="#">Inicio</a></li>
+            <li><a href="#">Departamentos</a></li>
+            <li><a href="#">Desarrolladores</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <input type="checkbox" id="check">
+
+        <aside class="sidenav">
+            
+            <ul class="opciones">
+                <li class="list-item titulo-nav">Inicio</li>
+                <li class="list-item titulo-nav">Departamentos</li>
+                <li class="list-item titulo-nav">Desarrolladores</li>
+                <li class="list-item titulo-nav">Zonas</li>
+            </ul>
+    
+            <p id="titulo-zona" class="titulo-nav">Zonas</p>
+    
+            <ul class="list">
+                <input type="checkbox" id="occidente">
+                <li class="list-item"><label for="occidente">Zona Occidental</label></li>
+                <ul id="zona-occ">
+                    <li class="sublist-item"><a href="#">- Ahuachapán</a></li>
+                    <li class="sublist-item"><a href="#">- Santa Ana</a></li>
+                    <li class="sublist-item"><a href="#">- Sonsonate</a></li>
+                </ul>
+                
+                <input type="checkbox" id="central">
+                <li class="list-item"><label for="central">Zona Cental</label></li>
+                <ul id="zona-cen">
+                    <li class="sublist-item"><a href="">- Cabañas</a></li>
+                    <li class="sublist-item"><a href="">- Chalatenango</a></li>
+                    <li class="sublist-item"><a href="">- Cuscatlán</a></li>
+                    <li class="sublist-item"><a href="">- La Libertad</a></li>
+                    <li class="sublist-item"><a href="">- La Paz</a></li>
+                    <li class="sublist-item"><a href="">- San Salvador</a></li>
+                    <li class="sublist-item"><a href="">- San Vicente</a></li>
+                </ul>
+    
+                <input type="checkbox" id="oriente">
+                <li class="list-item"><label for="oriente">Zona Oriental</label></li>
+                <ul id="zona-ori">
+                    <li class="sublist-item"><a href="">- La unión</a></li>
+                    <li class="sublist-item"><a href="">- Morazán</a></li>
+                    <li class="sublist-item"><a href="">- San Miguel</a></li>
+                    <li class="sublist-item"><a href="">- Usulután</a></li>
+                </ul>
+            </ul>
+        </aside>
+    
+        <section class="contenido">
+            <input type="checkbox" id="prueba">
+            <div class="map">                
+                <label class="boton-prueba" for="prueba">Abrir</label>
+                <img src="./img/mapa ejemplo.jfif" alt="">
+            </div>
+
+            <div class="info">
+                <div class="close-icon">
+                    <label for="prueba">
+                        <i class="fas fa-times brand-close"></i>
+                    </label>
+                </div>
+
+                <div class="informacion"> 
+                    <img src="./img/mapa ejemplo.jfif" alt="">
+
+                    <p id="titulo-info">San Salvador</p>
+
+                    <p class="text-info">Cabecera: San Salvador</p>
+                    <p class="text-info">Superficie: 2130 km^2</p>
+                    <p class="text-info">Poblacion: 317 079 hab.</p>
+                    <p class="text-info">Fiestas Patronales: Del 19 al 25 de noviembre en honor a "Santa Catarina de Alejandria" </p>
+
+                    <div class="boton">
+                        <a href="">Conocer mas</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container-footer">
+            &#169; Derechos Reservados 2020 | Universidad Don Bosco
+        </div>
+    </footer>
+</body>
+</html>
