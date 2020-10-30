@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Salvador | departamentos</title>
+    <link rel="stylesheet" href="./css/style.css"><!--CSS propio-->
+    <!--CSS para iconos-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <!--Inicio de Barra superior-->
+    <nav class="superior">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars" ></i>
+        </label>
+        <label class="logo">El Salvador</label>
+        <ul>
+            <li><a class="active" href="index.html">Inicio</a></li>
+            <li><a href="departamentos.html">Departamentos</a></li>
+            <li><a href="desarrolladores.html">Desarrolladores</a></li>
+        </ul>
+    </nav>
+    <!--fin de Barra superior-->
+
+    <div class="container">
+        <input type="checkbox" id="check">
+
+        <!--Inicio del menu lateral izquierdo-->
+        <aside class="sidenav">
+            <!--Opciones que se muestran en movil y tablets-->
+            <ul class="opciones">
+                <li class="list-item titulo-nav"><a href="index.html">Inicio</a></li>
+                <li class="list-item titulo-nav"><a href="departamentos.html">Departamentos</a></li>
+                <li class="list-item titulo-nav"><a href="desarrolladores.html">Desarrolladores</a></li>
+                <li class="list-item titulo-nav">Departamentos</li>
+            </ul>
+
+            <p id="titulo-zona" class="titulo-nav">Municipios</p>
+
+            <!--Listado de Zonas del Pais y su submenus son los departamentos correspondientes a cada uno-->
+            <ul class="listamuni">
+                    <li>Alegría</li>
+                    <li>Berlín</li>
+                    <li>California</li>
+                    <li>Concepción Batres</li>
+                    <li>El Triunfo</li>
+                    <li>Ereguayquín</li>
+                    <li>Estanzuelas</li>
+                    <li>Jiquilisco</li>
+                    <li>Jucuapa</li>
+                    <li>Jucuarán</li>
+                    <li>Mercedes Umaña</li>
+                    <li>Nueva Granada</li>
+                    <li>Ozatlán</li>
+                    <li>Puerto El Triunfo</li>
+                    <li>San Agustín</li>
+                    <li>San Buenaventura</li>
+                    <li>San Dionisio</li>
+                    <li>San Francisco Javier</li>
+                    <li>Santa Elena</li>
+                    <li>Santa María</li>
+                    <li>Santiago de María</li>
+                    <li>Tecapán</li>
+                    <li>Usulután</li>
+            </ul>
+            <!--Fin del listado de zonas-->
+        </aside>
+
+
+        <section class="contenido">
+            <input type="checkbox" id="prueba">
+
+            <!--Contenedor del mapa-->
+            <div class="map">
+                <h2 class="tittleabs">Usulután</h2>
+                <img class="imgmunicipio" src="img/mapa_usulutan.png" alt=""  srcset="">
+            </div>
+            <!--Fin del contenedor del mapa-->
+
+            <!--Inicio del panel lateral derecho-->
+            <div class="info">
+                <input type="checkbox" id="datosh">
+                <li class="list-item blue "><label for="datosh">Datos historicos</label></li>
+                <ul class="white" id="historia">
+                    <div class="historia">
+                        <p>
+                            Usulután fue habitado originalmente por grupos lencas. Hacia el siglo XV, 
+                            sin embargo, fueron conquistados por pipiles. Durante la época de la conquista, 
+                            los residentes repelieron durante un mes a las milicias españolas en el año 1529, 
+                            quienes estaban bajo el mando de Diego de Rojas.
+                        </p>
+                    </div>
+                </ul>
+                <input type="checkbox" id="datosh">
+                <li class="list-item blue "><label for="datosh">Centros turisticos</label></li>
+                <ul class="white" id="historia">
+                    <div class="historia">
+                        <ul class="spaceupdown">
+                            <li><a href="">Playa el espino</a></li>
+                            <li><a href="">Laguna de Alegria</a></li>
+                            <li><a href="">Volcan Tecapa</a></li>
+                            
+                          </ul>
+                    </div>
+                </ul>
+                <input type="checkbox" id="datosh">
+                <li class="list-item blue "><label for="datosh">Personajes celebres</label></li>
+                <ul class="white " id="historia">
+                    <div class="historia ">
+                        <p>
+                            <strong> Alberto Masferrer</strong> nació en Tecapa, hoy llamada Alegría, 
+                            en el departamento de <strong>Usulután</strong> , una población del oriente de El Salvador, 
+                            de origen pipil y dominado posteriormente por los lencas.
+                        </p>
+                    </div>
+                </ul>
+            </div>
+            <!--Fin del panel lateral derecho-->
+        </section>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="container-footer">
+            &#169; Derechos Reservados 2020 | Universidad Don Bosco
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
