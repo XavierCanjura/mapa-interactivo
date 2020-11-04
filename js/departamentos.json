@@ -138,5 +138,145 @@
             "escritores": "Napoleón Viera Altamirano, Hugo Lindo",
             "celebres": ""
         }
+    },
+    {
+        "id": "ahuachapan",
+        "departamento": "Ahuachapán",
+        "cabecera": "Ahuachapán",
+        "extension_territorial": "1.240 km² ",
+        "habitantes": "375,496 hab.",
+        "fiesta_patronales": "5 al 14 de febrero en honor del Dulce Nombre de Jesús.",
+        "municipios": ["Ahuachapán","Apaneca","Atiquizaya", "Concepción de Ataco"," El Refugio","Guaymango","Jujutla","San Francisco Menéndez", "San Lorenzo", "San Pedro Puxtl", "Tacuba"," Turín"],
+        "centros_turisticos": ["PLAYA BARRA DE SANTIAGO"," MUNICIPIO DE CONCEPCION DE ATACO"," TURICENTRO EL JICARO"," TERMALES DE SANTA TERESA"," RUTA DE LAS FLORES"," TURICENTRO HACIENDA SAN RAYMUNDO"," MUNICIPIO DE APANECA"," LA LAGUNA VERDE DE APANECA"," RIO PAZ"," LAGUNA EL ESPINO."],
+        "dato_historico": "Fue creado por el Decreto Legislativo del 9 de febrero de 1869 durante la administración de Francisco Dueñas.",
+        "rios": "El principal río es el río Paz, que sirve de frontera con Guatemala, otros ríos cortos y torrenciales bajan de la Cordillera Costera.",
+        "lagos": "Existen las lagunas de Olomega, Los Negritos o Maquigüe, El Pilón, Managuara, Los Chorros o Los Mangos, El Ciprés y Poza del Hangar, así como las bahías de La Unión, Santa Ana y La Playona",
+        "cerros": ["Cerro Apaneca","el cerro Ataco","Cerro de Oro"],
+        "volcanes": "Volcán Apaneca o Chichicastepeque ",
+        "personajes": {
+            "alcalde": "Abilio Flores Vásquez",
+            "escritores": "Ricardo Trigueros de León, Alfredo Espino,Mari Bencastro",
+            "celebres": "General Francisco Menéndez"
+        }
+    },
+    {
+        "id": "santa_ana",
+        "departamento": "Santa Ana",
+        "cabecera": "Santa Ana",
+        "extension_territorial": "2.023 km²",
+        "habitantes": "631 100 hab.",
+        "fiesta_patronales": "17 al 26 de julio, en honor de Nuestra Señora de Santa Ana.",
+        "municipios": ["Candelaria de la Frontera ","Chalchuapa ","Coatepeque"," El Congo"," El Porvenir"," Masahuat"," Metapán"," San Antonio ","Pajonal"," San Sebastián"," Salitrillo"," Santa Ana","Santa Rosa"," Guachipilín ","Santiago de la Frontera"," Texistepeque"],
+        "centros_turisticos": ["PARQUE ACUATICO SIHUATEHUACAN"," LAGO DE COATEPEQUE"," PARQUE ARQUEOLOGICO EL TAZUMAL"," PARQUE ACUATICO APUZUNGA"," TURICENTRO EL TRAPICHE"," PARQUE ACUATICO LAS CASCADAS"," PARQUE ACUATICO GALICIA"," PARQUE NACIONAL CERRO VERDE"," PARQUE NACIONAL MONTECRISTO"," RUTA DE LOS NARANJOS"],
+        "dato_historico": "En el tiempo de la conquista, la zona de Santa Ana fue ocupada por las tribus chortis y pokomames, ambos de la familia maya–quiché.",
+        "rios": "Goascorán, Sirama, Lislique y Güeripe",
+        "lagos": "El Lago de Güija, Lago de Coatepeque",
+        "cerros": "Cerro Verde,Cerro Montecristo",
+        "volcanes": "volcán de Santa Ana o Ilamatepec,volcán Chingo",
+        "personajes": {
+            "alcalde": "Carmen Elena Calderón Sol de Escalón",
+            "escritores": "David Escobar Galindoo, Miguel Ángel Espino,Álvaro Ménendez Leal",
+            "celebres": ""
+        }
+    },
+    {
+        "id": "san_salvador",
+        "departamento": "San Salvador",
+        "cabecera": "San Salvador",
+        "extension_territorial": "886,2 km²",
+        "habitantes": "3 054 876 hab.",
+        "fiesta_patronales": "San Salvador (cabecera) del 1 al 6 de agosto, en honor del Divino Salvador del Mundo.",
+        "municipios": ["Aguilares"," Apopa"," Ayutuxtepeque"," Cuscatancingo"," Ciudad Delgado"," El Paisnal"," Guazapa"," Ilopango ","Mejicanos"," Nejapa"," Panchimalco ","Rosario de Mora"," San Marcos"," San Martín"," San Salvador"," Santiago Texacuangos"," Santo Tomás ","Soyapango"," Tonacatepeque"],
+        "centros_turisticos": ["LAGO DE ILOPANGO APULO"," PLANES DE RENDEROS"," VOLCAN DE SAN SALVADOR"," LOS PLANES DE RENDEROS"," POLIDEPORTIVO DE NEJAPA"," PUERTA DEL DIABLO"," ZOOLOGICO NACIONAL"," PARQUE BICENTENARIO"," CENTRO HISTORICO DE SAN SALVADOR"],
+        "dato_historico": "Fue erigido durante la administración del primer Jefe de Estado y prócer de la Independencia centroamericana Juan Manuel Rodríguez, por artículo constitucional el 12 de junio de 1824. Su cabecera, que es también capital de la República, es la ciudad de San Salvador, fundada por el capitán Gonzalo de Alvarado alrededor del 1 de abril de 1525. ",
+        "rios": "Río Lempa, Río Acelhuate, Río Jiboa, Río Sucio, Río Sumpul",
+        "lagos": "Existen las lagunas de Olomega, Los Negritos o Maquigüe, El Pilón, Managuara, Los Chorros o Los Mangos, El Ciprés y Poza del Hangar, así como las bahías de La Unión, Santa Ana y La Playona",
+        "cerros": "",
+        "volcanes": "El Boqueron, Volcán de San Salvador",
+        "personajes": {
+            "alcalde": "Ernesto Luis Muyshondt García Prieto",
+            "escritores": "Matilde Elena López,Arturo Ambrogi,Ricardo Lindo,María de Baratta",
+            "celebres": ""
+        }
+    },
+    {
+        "id": "san_vicente",
+        "departamento": "San Vicente",
+        "cabecera": "San Vicente",
+        "extension_territorial": "1.184 km²",
+        "habitantes": "235,205 hab.",
+        "fiesta_patronales": "del 10 al 31 de diciembre, en honor de San Vicente Abad y Mártir.",
+        "municipios": ["Apastepeque ","Guadalupe ","San Cayetano Istepeque"," San Esteban Catarina"," San Ildefonso"," San Lorenzo"," San Sebastián ","San Vicente ","Santa Clara","Santo Domingo"," Tecoluca"," Tepetitán","Verapaz"],
+        "centros_turisticos": ["PARQUE ACUATICO AMAPULAPA"," LAGUNA DE APASTEPEQUE"," CENTRO RECREATIVO ACCOVI"," MUNICIPIO DE APASTEPEQUE"," MUNICIPIO DE SANVICENTE  "],
+        "dato_historico": "El departamento fue creado durante la administración del primer Jefe de Estado y optimate de la Independencia Centroamericana Juan Manuel Rodríguez, el 12 de junio de 1824 y funcionó como capital de El Salvador de 1834 a 1840",
+        "rios": "Goascorán, Sirama, Lislique y Güeripe",
+        "lagos": "Laguna de Apastepeque",
+        "cerros": "Cerro Santa Rita",
+        "volcanes": "Volcán de San Vicente (Chichontepec)",
+        "personajes": {
+            "alcalde": "Medardo Hernández Lara",
+            "escritores": "Sarbelio Navarrete,Ricardo Martell Caminos,Alfonso Hernández",
+            "celebres": ""
+        }
+    },
+    {
+        "id": "san_miguel",
+        "departamento": "San Miguel",
+        "cabecera": "San Miguel",
+        "extension_territorial": "2077 km²",
+        "habitantes": "520 022 hab.",
+        "fiesta_patronales": "San Miguel, del 14 al 30 de noviembre dedicadas a Nuestra Señora de la Paz.",
+        "municipios": ["San Miguel","Carolina"," Chapeltique"," Chinameca"," Chirilagua ","Ciudad Barrios"," Comacarán"," El Tránsito"," Lolotique"," Moncagua"," Nueva Guadalupe"," Nuevo Edén de San Juan"," Quelepa"," San Antonio"," San Gerardo"," San Jorge"," San Luis de la Reina"],
+        "centros_turisticos": ["PLAYA EL CUCO"," TURICENTRO AQUAPARK"," TURICENTRO FLOR DE RIO"," PARQUE ACUATICO ALTOS DE LA CUEVA"," PARQUE DE DIVERSIONES LA AVENTURA DEL MONO"," PLAYA EL TAMARINDO"," LAGUNA EL JOCOTAL"," BALNEARIO OBRA DE DIOS"],
+        "dato_historico": "El 8 de mayo de 1530 fue fundada la ciudad de San Miguel por don Pedro de Alvarado y En 1763, el volcán Chaparrastique hizo su primera erupción.",
+        "rios": "Río Grande",
+        "lagos": "Laguna de Olomega, Laguna de Aramuaca, Laguna El Jocatal",
+        "cerros": "",
+        "volcanes": "Volcán Chaparrastique",
+        "personajes": {
+            "alcalde": "Miguel Ángel Pereira Ayala",
+            "escritores": "Manlio Argueta, Francisco Gavidia",
+            "celebres": ""
+        }
+    },
+    {
+        "id": "usulutan",
+        "departamento": "Usulután",
+        "cabecera": "Usulután",
+        "extension_territorial": "2.130 km²",
+        "habitantes": "465 383 hab.",
+        "fiesta_patronales": "del 18–25 de noviembre, dedicadas a Santa Catarina de Alejandría.",
+        "municipios": ["Usulután"," Alegría"," Berlín"," California"," Concepción Batres"," El Triunfo"," Ereguayquín"," Estanzuelas"," Jiquilisco"," Jucuapa"," Jucuarán"],
+        "centros_turisticos": ["PLAYA EL ESPINO"," MUNICIPIO DE ALEGRIA"," BAHIA DE JIQUILISCO"," LAGUNA DE ALEGRIA"," LA PIRRAYA COUNTRY CLUB"," ISLA LA PIRRAYA"," PUERTO EL TRIUNFO"," PARQUE ACUATICO AQUA PARK"],
+        "dato_historico": "El departamento fue creado el 22 de junio de 1865 durante la administración del licenciado Francisco Dueñas.",
+        "rios": "Grande de San Miguel",
+        "lagos": "laguna del Jocotal ",
+        "cerros": "",
+        "volcanes": "volcán de Usulután, volcán Tecapa",
+        "personajes": {
+            "alcalde": "José Mauricio Zelaya",
+            "escritores": "Alberto Masferrer, Armando Rodríguez Portillo, Vicente Rosales y Rosales",
+            "celebres": ""
+        }
+    },
+    {
+        "id": "cabanas",
+        "departamento": "Cabañas",
+        "cabecera": "Sensuntepeque",
+        "extension_territorial": "1.104 km²",
+        "habitantes": "215,400 hab.",
+        "fiesta_patronales": "del 24 de noviembre al 5 de diciembre, en honor de Santa Bárbara.",
+        "municipios": ["Sensuntepeque"," Cinquera"," Dolores"," Guacotecti"," Ilobasco"," Jutiapa"," San Isidro"," Tejutepeque"," Victoria"],
+        "centros_turisticos": ["MUSEO Y PARQUEACUATICO LA CASA DE LA HACIENDA"," RIO LEMPA"," EL PARQUE CABAÑAS"," RIO TITIHUAPA"," BOSQUE DE CINQUERA"," CERRO DE CABAÑAS"," EL RANCHO PORVENIR"],
+        "dato_historico": "Su creación es fechada el 10 de febrero del año de 1873. Cuando le fue dado el nombre por medio de un decreto legislativo a manera de homenaje de un político hondureño centroamericano llamado José Trinidad Cabañas.",
+        "rios": " Lempa, Titihuapa",
+        "lagos": "Existen las lagunas de Olomega, Los Negritos o Maquigüe, El Pilón, Managuara, Los Chorros o Los Mangos, El Ciprés y Poza del Hangar, así como las bahías de La Unión, Santa Ana y La Playona",
+        "cerros": "Pelón, Cordoncillo",
+        "volcanes": "Jesús Edgar Bonilla Navarrete",
+        "personajes": {
+            "alcalde": "Ezequiel Milla Guerra",
+            "escritores": "Laura Hernández de Salazar, José María Cuéllar, Maura Echeverría",
+            "celebres": ""
+        }
     }
 ]
