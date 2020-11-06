@@ -1,18 +1,6 @@
 //Declaracion de variables
 const departamento = document.querySelectorAll('.departamentos');
-
-
-//llamando al json
-fetch("./js/departamentos.json")
-    .then(function(resp){
-        return resp.json();
-    })
-    .then(function(info){
-        console.log(info)
-    });
-
-
-
+var i=0, img;
 const fotoDepart = document.getElementById('foto-depart');
 const titulo = document.getElementById('titulo-info');
 const cabecera = document.getElementById('cabecera');
@@ -21,30 +9,25 @@ const poblacion = document.getElementById('poblacion');
 const fiesta = document.getElementById('fiesta');
 const conocerMas = document.getElementById('mas')
 
+
+
 //Eventos
 departamento.forEach( (e) =>{
     e.addEventListener('mouseover', obtenerDepart);
 });
 
 
-class class_depa_i{
-    constructor(fotoDepart,titulo, cabecera, superficie, poblacion,fiesta,conocerMas){
-        this.fotoDepart = fotoDepart;
-        this.titulo = titulo;
-        this.cabecera = cabecera;
-        this.superficie = superficie;
-        this.poblacion = poblacion;
-        this.fiesta = fiesta;
-        this.conocerMas = conocerMas;
-    }
-}
-
-//  [0] morazan, [1] cabañas, [2] chalate , [3] cusca
-
-// Foto, Nombre, cabercera, superficie, poblacion, fiesta, conocemas
-const morazan_i = new class_depa_i ("./img/map_color.png",info[0].departamento,info[0].cabecera, info[0].extension_territorial,
-info[0].habitantes,info[0].fiesta_patronales)
-
+// class class_depa_i{
+//     constructor(fotoDepart,titulo, cabecera, superficie, poblacion,fiesta,conocerMas){
+//         this.fotoDepart = fotoDepart;
+//         this.titulo = titulo;
+//         this.cabecera = cabecera;
+//         this.superficie = superficie;
+//         this.poblacion = poblacion;
+//         this.fiesta = fiesta;
+//         this.conocerMas = conocerMas;
+//     }
+// }
 
 //Funciones
 //Funcion para obtener el nombre del departamento
@@ -54,47 +37,104 @@ function obtenerDepart(e)
 
     MostrarDepart(e.path[0].id);
 }
+// morazan[0] , cabanas[1], chalatenango[2], cuscatlan[3], la libertad[4], la paz[5], la union[6],
+// ahuchapan[7],santa ana[8], san salvador[9], san vicente[10], san miguel[11], usulutan[12], cabanas[13]
 
 //Funtion para mostrar informacion del departamento
-function MostrarDepart(departamento)
-{
+function MostrarDepart(departamento) {
     switch (departamento) {
-		case "santa_ana":
-			InsertInfo(santa_ana_i);
-			break;
-		case "sonsonate":
-			InsertInfo(sonsonate_i);
-			break;
-		case "san_salvador":
-			InsertInfo(santa_ana_i);
-			break;
-		case "san_salvador":
-			InsertInfo(santa_ana_i);
-			break;
-		case "san_salvador":
-			InsertInfo(santa_ana_i);
-			break;
-		case "san_salvador":
-			InsertInfo(santa_ana_i);
-			break;
-		case "san_salvador":
-			InsertInfo(santa_ana_i);
-			break;
-		
-		default:
-			
-	}
-    
+        case "morazan":
+            i=0;
+            img="./img/map_color.png";
+            InsertInfo(i,img)
+            break;
+        case "cabanas":
+            i=1;
+            img="./img/map_color.png";
+            InsertInfo(i,img)
+            break;
+        case "chalatenango":
+            i=2;
+            img="./img/map_color.png";
+            InsertInfo(i,img)
+            break;
+        case "cuscatlan":
+            i=3;
+            img="./img/map_color.png";
+            InsertInfo(i,img)
+            break;
+        case "la_libertad":
+            i=4;
+            img="./img/map_color.png";
+            InsertInfo(i,img)
+            break;
+        case "la_paz":
+            i=5;
+            img="./img/map_color.png";
+            InsertInfo(i,img)
+            break;
+        case "la_union":
+            i=6;
+            img="./img/map_color.png";
+            InsertInfo(i,img)
+            break;
+        case "ahuachapan":
+            i=7;
+            img="./img/map_color.png";
+            InsertInfo(i,img)
+            break;
+        case "santa_ana":
+            i=8;
+            img="./img/map_color.png";
+            InsertInfo(i,img)
+            break;
+        case "san_salvador":
+            i=9;
+            img="./img/map_color.png";
+            InsertInfo(i,img)
+            break;
+        case "san_vicente":
+            i=10;
+            img="./img/map_color.png";
+            InsertInfo(i,img)
+            break;
+        case "san_miguel":
+            i=11;
+            img="./img/map_color.png";
+            InsertInfo(i,img)
+            break;
+        case "usulutan":
+            i=12;
+            img="./img/departamentos/usulutan.png";
+            InsertInfo(i,img)
+            break;
+        case "cabanas":
+            i=13;
+            img="./img/map_color.png";
+            InsertInfo(i,img)
+            break;
+        default:
+            break;
+    }
+
 }
 
-function InsertInfo(class_depa){
 
-    fotoDepart.src = class_depa.fotoDepart;
-    titulo.innerText = class_depa.titulo;
-    cabecera.innerText = class_depa.cabecera;
-    superficie.innerText = class_depa.superficie;
-    poblacion.innerText = class_depa.poblacion;
-    fiesta.innerText = class_depa.fiesta;
-    conocerMas.href = class_depa.conocerMas;
+function InsertInfo(i, path){
+
+    fetch("./js/departamentos.json")
+ .then(function(resp) {
+     return resp.json();
+ })
+ .then(function(info) {
+     console.log(info)
+     fotoDepart.src = path;
+     titulo.innerText = info[i].departamento;
+     cabecera.innerText = "Cabecera: " + info[i].cabecera;
+     superficie.innerText = "Superficie: " + info[i].extension_territorial;
+     poblacion.innerText = "Poblacion: " + info[i].habitantes;
+     fiesta.innerText = "Fiestas Patronales: "+info[i].fiesta_patronales;
+     conocerMas.href = inf.conocerMas;  
+ });
 }
 
