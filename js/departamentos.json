@@ -20,7 +20,7 @@
         }
     },
     {
-        "id": "cabañas",
+        "id": "cabanas",
         "departamento": "Cabañas",
         "cabecera": "Sensuntepeque",
         "extension_territorial": "1.104 km²",
@@ -80,7 +80,7 @@
         }
     },
     {
-        "id": "la_libertad ",
+        "id": "la_libertad",
         "departamento": "La Libertad ",
         "cabecera": "Santa Tecla",
         "extension_territorial": "1.653 km²",
@@ -260,22 +260,22 @@
         }
     },
     {
-        "id": "cabanas",
-        "departamento": "Cabañas",
-        "cabecera": "Sensuntepeque",
-        "extension_territorial": "1.104 km²",
-        "habitantes": "215,400 hab.",
-        "fiesta_patronales": "del 24 de noviembre al 5 de diciembre, en honor de Santa Bárbara.",
-        "municipios": ["Sensuntepeque"," Cinquera"," Dolores"," Guacotecti"," Ilobasco"," Jutiapa"," San Isidro"," Tejutepeque"," Victoria"],
-        "centros_turisticos": ["MUSEO Y PARQUEACUATICO LA CASA DE LA HACIENDA"," RIO LEMPA"," EL PARQUE CABAÑAS"," RIO TITIHUAPA"," BOSQUE DE CINQUERA"," CERRO DE CABAÑAS"," EL RANCHO PORVENIR"],
-        "dato_historico": "Su creación es fechada el 10 de febrero del año de 1873. Cuando le fue dado el nombre por medio de un decreto legislativo a manera de homenaje de un político hondureño centroamericano llamado José Trinidad Cabañas.",
-        "rios": " Lempa, Titihuapa",
-        "lagos": "Existen las lagunas de Olomega, Los Negritos o Maquigüe, El Pilón, Managuara, Los Chorros o Los Mangos, El Ciprés y Poza del Hangar, así como las bahías de La Unión, Santa Ana y La Playona",
-        "cerros": "Pelón, Cordoncillo",
-        "volcanes": "Jesús Edgar Bonilla Navarrete",
+        "id": "sonsonate",
+        "departamento": "Sonsonate",
+        "cabecera": "Sonsonate",
+        "extension_territorial": "1.226 km²",
+        "habitantes": "535 561 hab.",
+        "fiesta_patronales": "del 25 de enero al 5 de febrero, en honor de la Virgen de Candelaria.",
+        "municipios": ["Sonsonate" , "Acajutla" , "Armenia" , "Caluco" , "Cuisnahuat" , "Izalco" , "Juayúa" , "Nahuizalco" , "Nahulingo" , "Salcoatitán" , "San Antonio del Monte" , "San Julián" , "Santa Catarina Masahuat" , "Santa Isabel Ishuatán" , "Santo Domingo de Guzmán" , "Sonzacate"],
+        "centros_turisticos": ["PLAYA LOS COBANOS" , "PARQUE ACUATICO ATECOZOL" , "ECOPARQUE ACUATICO ENTRE RIOS" , "DECAMERON SALINITAS" , "BALNEARIO CALUCO" , "TURICENTRO ATECOZOL" , "PARQUE NACIONAL CERRO VERDE" , "MUNICIPIO DE JUAYUA" , "PLAYA METALIO" , "TURICENTRO AGAPE" ],
+        "dato_historico": "Fundada por el mercader Antonio Rodríguez en el año 1552, con el nombre de villa del Espíritu Santo de Sonsonate, a orillas del río Sensunapán, lugar de donde luego fue trasladada hacia la villa de la Santísima Trinidad.",
+        "rios": " ",
+        "lagos": "",
+        "cerros": "",
+        "volcanes": "Volcán de Izalco, san marcelino",
         "personajes": {
             "alcalde": "Ezequiel Milla Guerra",
-            "escritores": "Laura Hernández de Salazar, José María Cuéllar, Maura Echeverría",
+            "escritores": "Salarrué, Claudia Lars, Carlos Arturo Imendia",
             "celebres": ""
         }
     }

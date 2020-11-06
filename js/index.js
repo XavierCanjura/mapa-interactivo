@@ -1,6 +1,5 @@
 //Declaracion de variables
 const departamento = document.querySelectorAll('.departamentos');
-var i=0, img;
 const fotoDepart = document.getElementById('foto-depart');
 const titulo = document.getElementById('titulo-info');
 const cabecera = document.getElementById('cabecera');
@@ -15,9 +14,6 @@ const conocerMas = document.getElementById('mas')
 departamento.forEach( (e) =>{
     e.addEventListener('mouseover', obtenerDepart);
 });
-
-
-
 
 //Funciones
 //Funcion para obtener el nombre del departamento
@@ -41,10 +37,9 @@ function MostrarDepart(idDepa) {
  })
  .then(function(info) {
     i = info.findIndex(obj => obj.id==idDepa);
-
-    console.log(i);
+     console.log(i);
      console.log(info)
-     console.log( "trayendo el index " +info.indexOf( info[i].id ) );
+     // cuando esten las imagenes listas cambiar el 0 por la varibale i....
      fotoDepart.src = imgpath[0];
      titulo.innerText = info[i].departamento;
      cabecera.innerText = "Cabecera: " + info[i].cabecera;
