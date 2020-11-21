@@ -86,15 +86,14 @@
 
   <!--Inicio de formulario-->
       <div class="container-contac">
-          <form action="" >
+          <form action="POST">
             <h2 class="Formulario_titulo">Contactanos</h2>
-            <input type="text" class="Form-input"  placeholder="Nombre completo">
-            <input type="text" class="Form-input" placeholder="Correo electronico">
-             <textarea  class="Form-input" placeholder="Mensaje" rows="8" cols="80"></textarea>
-            <input type="button" class="botonE" value="ENVIAR">
-
+            <input id="nombre" type="text" class="Form-input"  placeholder="Nombre completo" required>
+            <input id="correo" type="email" class="Form-input" placeholder="Correo electronico" required>
+            <textarea id="mensaje" class="Form-input" placeholder="Mensaje" rows="8" cols="80" required></textarea>
+            <input id="enviar" type="submit" class="botonE" value="ENVIAR">
           </form>
-        </div>
+      </div>
 
 <!--fin de formulario-->
 
@@ -104,5 +103,7 @@
               &#169; Derechos Reservados 2020 | Universidad Don Bosco
           </div>
       </footer>
+    <script src="./js/sweetalert2.js"></script>
+    <script src="./js/contactanos.js"></script>
 </body>
 </html>
