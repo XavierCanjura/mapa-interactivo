@@ -462,6 +462,12 @@ path.departamentos:hover{
     font-size: 300%;
 }
 
+#infocheck
+{
+    display: none;
+}
+
+
 /*--------------------------------------------PARA TABLETS-------------------------------------*/
 @media (max-width: 952px){
     .container{
@@ -489,6 +495,11 @@ path.departamentos:hover{
         display: block;
         position: absolute;
         right: 0;
+    }
+
+    #infocheck
+    {
+        display: block;
     }
 
     nav ul li a{
