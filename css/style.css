@@ -201,9 +201,9 @@ input[type="checkbox"]{
     width: 75%;
 }
 
-img{
-    /*width: 100%;
-    height: 100%;*/
+.imgBox img{
+    width: 100%;
+    height: 100%;
 }
 
 #mapa{
@@ -641,7 +641,7 @@ path.departamentos:hover{
         cursor: pointer;
         text-decoration: none;
         color: white;
-        padding: 15px 60% 15px 20px;
+        /*padding: 15px 60% 15px 20px;*/
     }
 
     .sublist-item{
