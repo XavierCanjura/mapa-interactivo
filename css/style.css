@@ -66,6 +66,7 @@ nav ul li a:hover{
     display: none;
 }
 
+
 #check{
     display: none;
 }
@@ -201,8 +202,8 @@ input[type="checkbox"]{
 }
 
 img{
-    width: 100%;
-    height: 100%;
+    /*width: 100%;
+    height: 100%;*/
 }
 
 #mapa{
@@ -282,6 +283,7 @@ bottom: 5px;
     width: 25%;
     background: white;
     border: 1px solid black;
+    overflow-y: scroll;
 }
 
 .close-icon {
@@ -424,8 +426,8 @@ path.departamentos:hover{
 }
 
 .spaceupdown{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .listamuni{
     padding: 11px 10px 48px 25px;
@@ -436,7 +438,7 @@ path.departamentos:hover{
     color: #f4f4f4;
     cursor: pointer;
 }
-.listamuni li:hover{
+.listamuni li li:hover{
     padding: 0px 0px 10px 0px;
     color: #ffffff;
     cursor: pointer;
@@ -445,9 +447,9 @@ path.departamentos:hover{
     
 }
 .imgmunicipio{
-    width: 75%;
+    width: 90%;
     height: 75%;
-    margin-left: 10%;
+    margin-left: 7%;
     margin-top:10%;
     
 }
@@ -455,8 +457,8 @@ path.departamentos:hover{
 .tittleabs{
     
     position: absolute;
-    margin-top: 5%;
-    margin-left: 10%;
+    margin-top: 2%;
+    margin-left: 5%;
     font-size: 300%;
 }
 
@@ -475,6 +477,18 @@ path.departamentos:hover{
         display: block;
         float: left;
         margin: 0 0 0 25px;
+    }
+
+    .infobtn
+    {
+        font-size: 30px;
+        color: #00a6da;
+        line-height: 70px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        right: 0;
     }
 
     nav ul li a{
@@ -508,14 +522,19 @@ path.departamentos:hover{
     .info{
         position: fixed;
         background: white;
-        right: -25%;
+        right: -45%;
         height: 100%;
-        width: 25%;
+        width: 45%;
         transition: all .5s ease-in-out;
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
         z-index: 2;
         overflow-y: auto;
         top: 70px;
+    }
+
+    .activate
+    {
+        right: 0;
     }
 
     .close-icon {
@@ -633,6 +652,7 @@ path.departamentos:hover{
     /*Panel Lateral derecho*/
     .close-icon {
         display: block;
+        color: black;
     }
 
     .info{
@@ -644,6 +664,11 @@ path.departamentos:hover{
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
         z-index: 1;
         overflow-y: auto;
+    }
+
+    .activate
+    {
+        right: 0;
     }
 
     .boton{

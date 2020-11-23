@@ -17,7 +17,8 @@
             "alcalde": "Nahin Arnelge Ferrufino Benítez",
             "escritores": "",
             "celebres": "Francisco Morazán: Uno de los próceres que lucharon por la unidad política de la América Central fue Francisco Morazán. De descendencia italiana, nació en Tegucigalpa, Honduras, el 13 de octubre de 1792. A los veinte años empezó su carrera política y social, pues Morazán fue bien recibido por su presencia y sus dotes de joven culto e inteligente."
-        }
+        },
+        "imagen": "mapa_morazan"
     },
     {
         "id": "cabanas",
@@ -26,7 +27,7 @@
         "extension_territorial": "1.104 km²",
         "habitantes": "215,400 hab.",
         "fiesta_patronales": "del 24 de noviembre al 5 de diciembre, en honor de Santa Bárbara.",
-        "municipios": ["Guacotecti","Dolores","San Isidro","Ilobasco","Tejutepeque","Victoria","Jutiapa","Cinquera"],
+        "municipios": ["Sensuntepeque", "Cinquera", "Dolores", "Guacotecti", "Ilobasco ", "Jutiapa", "San Isidro", "Tejutepeque", "Victoria"],
         "centros_turisticos": ["MUSEO Y PARQUEACUATICO LA CASA DE LA HACIENDA", "RIO LEMPA, EL PARQUE CABAÑAS", "RIO TITIHUAPA", "BOSQUE DE CINQUERA", "CERRO DE CABAÑAS", "EL RANCHO PORVENIR"],
         "dato_historico": "esta región hay varias cosas que se deben resaltar. Primeramente, que se trata de uno de los departamentos más nuevos en la República de El Salvador. En este sentido, su creación es fechada el 10 de febrero del año de 1873. Cuando le fue dado el nombre por medio de un decreto legislativo a manera de homenaje de un político hondureño centroamericano llamado José Trinidad Cabañas.",
         "rios": "los ríos Lempa y Titihuapa donde se desarrolla la pesca artesanal así como la generación de energía eléctrica al país por medio de la central hidroeléctrica 5 de noviembre ubicada en el cantón San Nicolás.",
@@ -37,7 +38,8 @@
             "alcalde": "Jesús Edgar Bonilla Navarrete",
             "escritores": "Laura Hernández de Salazar, José María Cuéllar, Maura Echeverría",
             "celebres": ""
-        }
+        },
+        "imagen": "mapa_cabanas"
     },
     {
         "id": "chalatenango",
@@ -46,7 +48,7 @@
         "extension_territorial": "2.017 km²",
         "habitantes": "275 100 hab.",
         "fiesta_patronales": "",
-        "municipios": [],
+        "municipios": ["Chalatenango", "Agua Caliente", "Arcatao", "Azacualpa", "Cancasque", "Citalá", "Comalapa", "Concepción Quezaltepeque", "Dulce Nombre de María", "El Carrizal", "El Paraíso", "La Laguna", "La Palma", "La Reina", "Las Flores", "Las Vueltas", "Nombre de Jesús", "Nueva Concepción (Ciudad más poblada)", "Nueva Trinidad", "Ojos de Agua", "Potonico", "San Antonio de la Cruz", "San Antonio Los Ranchos", "San Fernando", "San Francisco Lempa", "San Francisco Morazán", "San Ignacio", "San Isidro Labrador", "San Luis del Carmen", "San Miguel de Mercedes", "San Rafael", "Santa Rita", "Tejutla"],
         "centros_turisticos": ["URICENTRO AGUA FRIA", "RIO SUMPUL/TURICENTRO", "CERRO EL PITAL", "MUNICIPIO LA PALMA", "CANTON LAS PILAS", "PARQUE DE LA FAMILIA", "BALNEARIO LA HACIENDA", "COUNTRY CLUB CHALATENANGO", "EL REFUGIO", "EL RIO LEMPA CHALATENANGO"],
         "dato_historico": "La masacre del Sumpul es uno de esos pasajes tristes de la historia de Chalatenango que sucedió cuando iniciaba el conflicto armado en El Salvador en la década de los ochentas, una guerra que cobró la vida de más de 75 mil salvadoreños.",
         "rios": "Río Lempa, Río Sumpul, Río Tamulasco, Río Grande, Río Azambio",
@@ -57,7 +59,8 @@
             "alcalde": "José Rigoberto Mejía Menjívar",
             "escritores": "Matías Romero: Nació en el municipio de Dulce Nombre de María, Chalatenango, El Salvador, en 1927. Poeta, ensayista, profesor universitario, filósofo, lingüista y académico de la lengua. ",
             "celebres": "José María San Martín: nació en Nacaome, una ciudad del departamento de Valle, en Honduras el 29 de marzo de 1811. Sin embargo, en 1819 junto a toda su familia se vinieron a vivir definitivamente a El Salvador. Fueron dueños de muchas tierras en Tejutla y Chalatenango, incluida la Hacienda Amayo."
-        }
+        },
+        "imagen": "mapa_chalatenango"
     },
     {
         "id": "cuscatlan",
@@ -77,7 +80,8 @@
             "alcalde": "Mercedes Lili Bello de Perdomo",
             "escritores": "Ana Dolores Arias,Raúl Contreras",
             "celebres": ""
-        }
+        },
+        "imagen": "mapa_cuscatlan"
     },
     {
         "id": "la_libertad",
@@ -97,7 +101,8 @@
             "alcalde": "Roberto José D'Aubuisson Munguía",
             "escritores": "Joaquín Castro Canizáles, José María Peralta Lagos, Antonio Salazar",
             "celebres": ""
-        }
+        },
+        "imagen": "mapa_lalibertad"
     },
     {
         "id": "la_paz",
@@ -117,7 +122,8 @@
             "alcalde": "Francisco Salvador Hirezi Morataya",
             "escritores": "Cristóbal Humberto Ibarra,Carlos Lobato",
             "celebres": ""
-        }
+        },
+        "imagen": "mapa_lapaz"
     },
     {
         "id": "la_union",
@@ -137,7 +143,8 @@
             "alcalde": "Ezequiel Milla Guerra",
             "escritores": "Napoleón Viera Altamirano, Hugo Lindo",
             "celebres": ""
-        }
+        },
+        "imagen": "mapa_launion"
     },
     {
         "id": "ahuachapan",
@@ -157,7 +164,8 @@
             "alcalde": "Abilio Flores Vásquez",
             "escritores": "Ricardo Trigueros de León, Alfredo Espino,Mari Bencastro",
             "celebres": "General Francisco Menéndez"
-        }
+        },
+        "imagen": "mapa_ahuachapan"
     },
     {
         "id": "santa_ana",
@@ -177,7 +185,8 @@
             "alcalde": "Carmen Elena Calderón Sol de Escalón",
             "escritores": "David Escobar Galindoo, Miguel Ángel Espino,Álvaro Ménendez Leal",
             "celebres": ""
-        }
+        },
+        "imagen": "mapa_santaana"
     },
     {
         "id": "san_salvador",
@@ -197,7 +206,8 @@
             "alcalde": "Ernesto Luis Muyshondt García Prieto",
             "escritores": "Matilde Elena López,Arturo Ambrogi,Ricardo Lindo,María de Baratta",
             "celebres": ""
-        }
+        },
+        "imagen": "mapa_sansalvador"
     },
     {
         "id": "san_vicente",
@@ -217,7 +227,8 @@
             "alcalde": "Medardo Hernández Lara",
             "escritores": "Sarbelio Navarrete,Ricardo Martell Caminos,Alfonso Hernández",
             "celebres": ""
-        }
+        },
+        "imagen": "mapa_sanvicente"
     },
     {
         "id": "san_miguel",
@@ -237,7 +248,8 @@
             "alcalde": "Miguel Ángel Pereira Ayala",
             "escritores": "Manlio Argueta, Francisco Gavidia",
             "celebres": ""
-        }
+        },
+        "imagen": "mapa_sanmiguel"
     },
     {
         "id": "usulutan",
@@ -257,7 +269,8 @@
             "alcalde": "José Mauricio Zelaya",
             "escritores": "Alberto Masferrer, Armando Rodríguez Portillo, Vicente Rosales y Rosales",
             "celebres": ""
-        }
+        },
+        "imagen": "mapa_usulutan"
     },
     {
         "id": "sonsonate",
@@ -277,6 +290,7 @@
             "alcalde": "Ezequiel Milla Guerra",
             "escritores": "Salarrué, Claudia Lars, Carlos Arturo Imendia",
             "celebres": ""
-        }
+        },
+        "imagen": "mapa_sonsonate"
     }
 ]
